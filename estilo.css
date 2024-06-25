@@ -1,7 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --cor-fundo: black;
     --cor-fonte: #FFFFFF;
     --cor-fonte2: #C0C0C0;
-    --cor-botao1: blue;
+    --cor-botao1: green;
+    --cor-fontebotao: black;
 }
 
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+}
+.cabeça{
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 23% 23%;
+}
+
+.heri{
+    height: 100vh;
+}
+
+.heri-botao{
+    background-color: var(--cor-botao1);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-fontebotao);
+    display: block;
+}
